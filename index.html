@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/bf9d4bbbeb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <div class="wrapper">
+        <main>
+            <section class="masthead">
+                <h1>BUY GROCERY</h1>
+                <p>What do you need to buy today?</p>
+                <img src="img/cart.png" alt="Background image of a PCB">
+
+
+            </section>
+
+            <section class="input-items">
+                <input type="text" placeholder="Your item goes here" name="item" id="item"><br>
+                <input type="button" id="submit-button" value="ADD YOUR ITEM">
+
+                <ul class="myList">
+
+                </ul>
+                <p class="feedback"></p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="img/twitter-icon.png" alt="Twitter Icon"></a>
+            <a href="#"><img src="img/insta-icon.png" alt="Instagram Icon"></a>
+            <a href="#"><img src="img/fb-icon.png" alt="Facebook Icon"></a>
+            <a href="#"><img src="img/youtube-icon.png" alt="Youtube Icon"></a>
+        </div>
+
+        <p>All rights reserved to &copy; Jes Jayan, 2024</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
